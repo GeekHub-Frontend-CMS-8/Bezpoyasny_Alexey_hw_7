@@ -1,0 +1,75 @@
+.header
+  background-color: #fff
+  padding-top: 25px
+  padding-bottom: 25px
+  &__title
+    font-size: 24px
+    line-height: 44px
+    span
+      color: #8d81ac
+  &__menu-wrap
+    display: inline-flex
+    justify-content: flex-end
+    align-items: center
+  &__link-menu
+    display: block
+  &__btn
+    font-size: 17px
+    font-weight: 700
+  &__for-laptop
+    display: none
+    padding: 20px 135px 20px 135px
+  &__nav-item
+    display: inline
+  &__nav-link
+    font-size: $small-font-size
+    color: #635c73
+    font-weight: 700
+  &__nav-wrap
+    display: flex
+    justify-content: flex-end
+    align-items: center
+
+
+
+
+.off-canvas-menu
+  display: none
+  position: relative
+  top: -94px
+  padding-top: 25px
+  background-color: #fff
+  &__wrap
+    padding: 40px 0 40px 30px
+    background-color: #333333
+    border-bottom: 2px solid #3b3b3b
+    &:active
+      border-left: 8px solid #8d81ac
+  &__menu-item
+    display: block
+    color: #8d81ac
+    font-size: 32px
+    text-decoration: none!important
+    &:hover
+      color: #d4d4d4
+  &__navbar
+    padding: 25px 0
+  &__title-socials
+    color: #8d81ac
+    font-size: 32px
+  &__socials-link
+    display: inline-block
+    margin-top: 40px
+    margin-right: 50px
+    padding-bottom: 20px
+  &:target
+    display: block
+
+
+@media (min-width: 992px)
+  .header__for-mobile
+    display: none
+  .header__for-laptop
+    display: flex
+
+
