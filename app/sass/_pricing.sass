@@ -2,10 +2,10 @@
   background: #4b3b4e url("../img/pricing-bg.png") no-repeat center center
   &__title
     margin: 65px 0 45px 0
-    font-size: $big-font-size
+    font-size: 32px
     font-weight: 700
     color: $primary-color
-    line-height: 60px
+    line-height: 40px
   .pricing__item
     width: 100%
     max-width: 257px
@@ -29,7 +29,7 @@
         width: 100%
         max-width: 190px
         padding: 20px 0
-          font-size: $small-font-size
+        font-size: $small-font-size
   &__subtitle
     padding: 45px 0 35px 0
     background-color: #695b6a
@@ -84,4 +84,8 @@
     opacity: 0.8
     line-height: 21px
 
-
+@media (min-width: 480px)
+  .pricing
+    &__title
+      font-size: $big-font-size
+      line-height: 60px

@@ -3,10 +3,15 @@
   background-color: #f4f4f4
   &__title
     margin-bottom: 60px
-    font-size: $big-font-size
+    font-size: 32px
     font-weight: 700
     color: #8d81ac
-    line-height: 54px
+    line-height: 32px
+  &__img-wrap
+    width: 100%
+    max-width: 80px
+  &__img
+    width: 100%
   &__text-wrap
     margin-bottom: 45px
   &__subtitle
@@ -23,8 +28,13 @@
     top: 50px
     height: 580px
     background: url("../img/feature-img-code.png") no-repeat left
-    box-shadow: 0 0 25px rgba(0, 5, 5, 0.3)
 
-
-
+@media (min-width: 480px)
+  .feature
+    &__title
+      font-size: $big-font-size
+      line-height: 50px
+    &__img-wrap
+      max-width: 100px
+      width: 100%
 

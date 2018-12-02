@@ -17,13 +17,13 @@
 <body>
     <header class="header container-fluid">
         <div class="row header__for-mobile">
-            <div class="col-2">
+            <div class="col-2 header__img-wrap">
                 <img class="img-fluid" src="img/header-logo.png" alt="logo">
             </div>
-            <div class="col-4">
+            <div class="col-3 header__title-wrap">
                 <h1 class="header__title">FORK<span>IO</span></h1>
             </div>
-            <div class="col-4">
+            <div class="col-5">
                 <button class="btn btn-primary btn-block active btn-main header__btn">Buy Now</button>
             </div>
             <div class="header__menu-wrap col-2">
@@ -58,7 +58,7 @@
                     <h1 class="header__title">FORK<span>IO</span></h1>
                 </div>
                 <div class="col-4">
-                    <button class="btn btn-primary btn-block active btn-main">Buy Now</button>
+                    <button class="btn btn-primary btn-block active btn-main header__btn">Buy Now</button>
                 </div>
                 <div class="header__menu-wrap col-2">
                     <a href="#"><img src="img/btn-close.png" alt="close"></a>
@@ -88,7 +88,7 @@
             </div>
         </div>
     </header>
-    <section class="hero container-fluid">
+    <section class="hero container">
             <div class="row">
                 <div class="col-12 text-center">
                     <h1 class="hero__title">Fork App</h1>
@@ -99,7 +99,7 @@
     </section>
     <section class="editor container-fluid">
         <div class="row justify-content-center text-center">
-            <div class="col-10 col-lg-4">
+            <div class="col-10 col-md-6 col-lg-4">
                 <button class="btn btn-primary btn-block active btn-main editor__btn">Download For Free Now</button>
             </div>
         </div>
@@ -110,13 +110,13 @@
             <div class="col-12">
                 <h2 class="editor__title">Revolutionary editor</h2>
             </div>
-            <div class="col-12 col-lg-7">
+            <div class="col-12 col-md-10 col-lg-7">
                 <p class="editor__text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui
                         laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.</p>
             </div>
         </div>
         <div class="row justify-content-center text-center">
-            <div class="col-10 col-lg-3 editor__btn-github">
+            <div class="col-10 col-md-5 col-lg-3 editor__btn-github">
                 <a class="github-button" href="https://github.com/yoksel/common-words/subscription"
                    data-icon="octicon-eye" data-show-count="true" aria-label="Watch yoksel/common-words
                    on GitHub">Watch</a>
@@ -127,13 +127,13 @@
             </div>
         </div>
     </section>
-    <section class="feature container-fluid">
-        <div class="row">
+    <section class="feature container-fluid ">
+        <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <h2 class="feature__title">&lt;Here is what you get&gt</h2>
             </div>
-            <div class="col-3 text-center">
-                <img src="img/features-img-1.png" alt="feature-img-1">
+            <div class="col-3 text-center feature__img-wrap">
+                <img class="feature__img" src="img/features-img-1.png" alt="feature-img-1">
             </div>
             <div class="col-8 feature__text-wrap">
                 <h4 class="feature__subtitle">Creatred to Make The Web Better</h4>
@@ -141,8 +141,10 @@
                     dui laoreet vulputate dignissim. Sed id metus id quam auctor
                     molestie eget ut augue. </p>
             </div>
-            <div class="col-3 text-center">
-                <img src="img/features-img-2.png" alt="feature-img-2">
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3 text-center feature__img-wrap">
+                <img class="feature__img" src="img/features-img-2.png" alt="feature-img-2">
             </div>
             <div class="col-8 feature__text-wrap">
                 <h4 class="feature__subtitle">Incredibly Powerful Tool</h4>
@@ -150,8 +152,10 @@
                     Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur
                     dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
             </div>
-            <div class="col-3 text-center">
-                <img src="img/features-img-3.png" alt="feature-img-3">
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3 text-center feature__img-wrap">
+                <img class="feature__img" src="img/features-img-3.png" alt="feature-img-3">
             </div>
             <div class="col-8 feature__text-wrap">
                 <h4 class="feature__subtitle">Experimental Stuff</h4>
@@ -159,8 +163,10 @@
                     Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur
                     dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
             </div>
-            <div class="col-3 text-center">
-                <img src="img/features-img-4.png" alt="feature-img-4">
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3 text-center feature__img-wrap">
+                <img class="feature__img" src="img/features-img-4.png" alt="feature-img-4">
             </div>
             <div class="col-8 feature__text-wrap">
                 <h4 class="feature__subtitle">Creatred to Make The Web Better</h4>
@@ -174,10 +180,8 @@
     </section>
     <section class="social container-fluid ">
         <div class="row justify-content-center">
-            <div class="col-2 col-lg-1">
-                <img src="img/social-img-author.png" alt="author">
-            </div>
-            <div class="col-5 col-lg-2 social__text-author">
+            <div class="col-12 social__author-wrap">
+                <img class="social__img" src="img/social-img-author.png" alt="author">
                 <h4 class="social__author-name">Steven Strange</h4>
                 <span class="social__nickname">@DoctorS</span>
             </div>
@@ -212,19 +216,19 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-8 col-lg-3 text-center">
+            <div class="col-8 col-sm-5 col-lg-3 text-center">
                 <a href="#" class="btn btn-primary btn-lg disabled social-btn social-btn__github" role="button"
                    aria-disabled="true"><img class="social__social-icon"
                    src="img/social-icon-github.png" alt="github">GitHub</a>
                 <span class="social__icon-caption">7 352 Followers</span>
             </div>
-            <div class="col-8 col-lg-3 text-center">
+            <div class="col-8 col-sm-5 col-lg-3 text-center">
                 <a href="#" class="btn btn-primary btn-lg disabled social-btn social-btn__twitter" role="button"
                    aria-disabled="true"><img class="social__social-icon"
                    src="img/social-icon-twitter.png" alt="twitter">Twitter</a>
                 <span class="social__icon-caption">136 312 Followers</span>
             </div>
-            <div class="col-8 col-lg-3 text-center">
+            <div class="col-8 col-sm-5 col-lg-3 text-center">
                 <a href="#" class="btn btn-primary btn-lg disabled social-btn social-btn__facebook" role="button"
                    aria-disabled="true"><img class="social__social-icon"
                     src="img/social-icon-facebook.png" alt="facebook">Facebook</a>
@@ -237,32 +241,32 @@
             <div class="col-12 text-center">
                 <h2 class="testimonials__title">People Are Talking About Fork</h2>
             </div>
-            <div class="col-10 col-lg-4 text-center">
+            <div class="col-10 col-sm-6 col-lg-4 text-center">
                 <img class="testimonials__logo" src="img/testimonials-smashing.png" alt="smashing">
                 <p class="testimonials__text ">Sed vestibulum scelerisque urna, eu finibus leo facilisis
                     sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </p>
             </div>
-            <div class="col-10 col-lg-4 text-center">
+            <div class="col-10 col-sm-6 col-lg-4 text-center">
                 <img class="testimonials__logo" src="img/testimonials-codrops.png" alt="codrops">
                 <p class="testimonials__text">Donec euismod dolor ut ultricies consequat. Vivamus
                     urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.</p>
             </div>
-            <div class="col-10 col-lg-4 text-center">
+            <div class="col-10 col-sm-6 col-lg-4 text-center">
                 <img class="testimonials__logo" src="img/testimonials-w.png" alt="w">
                 <p class="testimonials__text">In efficitur in velit et tempus. Duis nec odio dapibus, suscipit
                     erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula. </p>
             </div>
-            <div class="col-10 col-lg-4 text-center">
+            <div class="col-10 col-sm-6 col-lg-4 text-center">
                 <img class="testimonials__logo" src="img/testimonials-pixel.png" alt="pixel">
                 <p class="testimonials__text">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit
                     amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis.</p>
             </div>
-            <div class="col-10 col-lg-4 text-center">
+            <div class="col-10 col-sm-6 col-lg-4 text-center">
                 <img class="testimonials__logo" src="img/testimonials-cb.png" alt="cb">
                 <p class="testimonials__text">Praesent ut eros tristique, malesuada lectus vel, lobortis massa.
                     Nulla faucibus lorem id arcu consequat faucibus.</p>
             </div>
-            <div class="col-10 col-lg-4 text-center">
+            <div class="col-10 col-sm-6 col-lg-4 text-center">
                 <img class="testimonials__logo" src="img/testimonials-tnw.png" alt="tnw">
                 <p class="testimonials__text">Fusce pharetra erat id odio blandit, nec
                     pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</p>
@@ -275,7 +279,7 @@
             <div class="col-12 text-center">
                 <h2 class="pricing__title">Fork Subscription Pricing</h2>
             </div>
-            <div class="col-8 text-center pricing__item">
+            <div class="col-8 col-md-6 text-center pricing__item">
                 <h4 class="pricing__subtitle">Students</h4>
                 <div class="pricing__price-wrap">
                     <span class="pricing__price">$29</span>
@@ -285,7 +289,7 @@
                     <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
                 </div>
             </div>
-            <div class="col-8 text-center pricing__item">
+            <div class="col-8 col-md-6 text-center pricing__item">
                 <h4 class="pricing__subtitle">professional</h4>
                 <div class="pricing__price-wrap">
                     <span class="pricing__price">$59</span>
@@ -295,7 +299,7 @@
                     <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
                 </div>
             </div>
-            <div class="col-8 text-center pricing__item">
+            <div class="col-8 col-md-6 text-center pricing__item">
                 <h4 class="pricing__subtitle">agency</h4>
                 <div class="pricing__price-wrap">
                     <span class="pricing__price">$99</span>
@@ -305,7 +309,7 @@
                     <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
                 </div>
             </div>
-            <div class="col-8 text-center pricing__item">
+            <div class="col-8 col-md-6 text-center pricing__item">
                 <h4 class="pricing__subtitle">enterprise</h4>
                 <div class="pricing__price-wrap">
                     <span class="pricing__price">$159</span>
@@ -386,12 +390,12 @@
     </section>
     <footer class="footer container-fluid">
         <div class="row">
-            <div class="col-8 col-lg-4">
+            <div class="col-8 col-sm-6 col-lg-4">
                 <img class="img-fluid align-middle" src="img/header-logo.png" alt="logo">
                 <h1 class="footer__title align-middle">FORK<span>IO</span></h1>
                 <p class="footer__text">Lorem ipsum dolor sit amet, feugiat delicat liberavisse id cum no quo.</p>
             </div>
-            <div class="col-8 col-lg-2">
+            <div class="col-8 col-sm-6 col-lg-2">
                 <h4 class="footer__subtitle">Navigation</h4>
                 <nav>
                     <ul class="footer__nav-list">
@@ -403,13 +407,13 @@
                     </ul>
                 </nav>
             </div>
-            <address class="col-8 col-lg-3">
+            <address class="col-8 col-sm-6 col-lg-3">
                 <a class="footer__tel-number" href="tel:347 567 78 90">347 567 78 90</a>
                 <p class="footer__text">AVAILABLE AT 12PM - 18PM</p>
                 <h4 class="footer__subtitle">New York, NY</h4>
                 <p class="footer__text">560 Judah St & 15th Ave, Apt 5 San Francisco, CA, 230903</p>
             </address>
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3">
                 <h4 class="footer__subtitle">Info</h4>
                 <p class="footer__text">Wisi enim ad minim veniam, quis nostrud exerci
                     tation ullamcorper suscipit lobortis nisl ut aliquip ex commodo consequat.

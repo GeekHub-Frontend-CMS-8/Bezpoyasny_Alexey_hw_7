@@ -2,9 +2,15 @@
   background-color: #fff
   padding-top: 25px
   padding-bottom: 25px
+  &__img-wrap
+    display: flex
+    align-items: center
+  &__title-wrap
+    display: flex
+    align-items: center
   &__title
-    font-size: 24px
-    line-height: 44px
+    font-size: 18px
+    line-height: 20px
     span
       color: #8d81ac
   &__menu-wrap
@@ -14,7 +20,7 @@
   &__link-menu
     display: block
   &__btn
-    font-size: 17px
+    font-size: 14px
     font-weight: 700
   &__for-laptop
     display: none
@@ -29,9 +35,6 @@
     display: flex
     justify-content: flex-end
     align-items: center
-
-
-
 
 .off-canvas-menu
   display: none
@@ -48,7 +51,7 @@
   &__menu-item
     display: block
     color: #8d81ac
-    font-size: 32px
+    font-size: 24px
     text-decoration: none!important
     &:hover
       color: #d4d4d4
@@ -56,15 +59,32 @@
     padding: 25px 0
   &__title-socials
     color: #8d81ac
-    font-size: 32px
+    font-size: 24px
   &__socials-link
     display: inline-block
+    width: 100%
+    max-width: 33px
     margin-top: 40px
     margin-right: 50px
     padding-bottom: 20px
   &:target
     display: block
 
+@media (min-width: 480px)
+  .header
+    &__title
+      font-size: 24px
+      line-height: 44px
+    &__btn
+      font-size: 17px
+
+
+@media (min-width: 480px)
+  .off-canvas-menu
+    &__menu-item
+      font-size: 32px
+    &__title-socials
+      font-size: 32px
 
 @media (min-width: 992px)
   .header__for-mobile

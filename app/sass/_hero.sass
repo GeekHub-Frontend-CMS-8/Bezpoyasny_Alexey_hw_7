@@ -1,9 +1,10 @@
 .hero
   background: url("../img/hero-bg.png") no-repeat center/cover
-  padding: 90px 0 600px 0
+  padding-top: 50px
+  padding-bottom: 300px
   &__title
     color: #d4d4d4
-    font-size: 82px
+    font-size: 50px
     font-weight: 700
   &__text
     color: #8d81ac
@@ -14,3 +15,11 @@
     color: #848e97
     font-size: $small-font-size
     text-transform: uppercase
+
+@media (min-width: 480px)
+  .hero
+    padding-top: 90px
+    padding-bottom: 600px
+    &__title
+      font-size: 82px
+
