@@ -264,14 +264,18 @@ body {
     font-size: 32px;
     font-weight: 700;
     color: #8d81ac;
-    line-height: 32px; }
-  .feature__img-wrap {
-    width: 100%;
-    max-width: 80px; }
+    line-height: 32px;
+    text-align: center; }
+  .feature__content-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 45px; }
   .feature__img {
-    width: 100%; }
-  .feature__text-wrap {
-    margin-bottom: 45px; }
+    display: block;
+    width: 100%;
+    max-width: 50px;
+    margin-right: 25px; }
   .feature__subtitle {
     margin-bottom: 20px;
     font-size: 16px;
@@ -290,10 +294,14 @@ body {
 @media (min-width: 480px) {
   .feature__title {
     font-size: 48px;
-    line-height: 50px; }
-  .feature__img-wrap {
-    max-width: 100px;
-    width: 100%; } }
+    line-height: 50px;
+      line-height-margin-bottom: 0; }
+  .feature__img {
+    max-width: 80px; } }
+
+@media (min-width: 992px) {
+  .feature__title {
+    text-align: right; } }
 
 .social {
   padding-top: 110px;
@@ -340,12 +348,6 @@ body {
 
 .next-icon {
   background: url("../img/Arrow_R.png") no-repeat center center; }
-
-.wrap-icon-prev {
-  left: -50px; }
-
-.wrap-icon-next {
-  right: -50px; }
 
 .testimonials {
   background: #4b3b4e url("../img/testimonials-bg.png") no-repeat center top;

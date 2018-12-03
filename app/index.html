@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900" rel="stylesheet">
@@ -15,414 +21,410 @@
     <title>Forkio</title>
 </head>
 <body>
-    <header class="header container-fluid">
-        <div class="row header__for-mobile">
-            <div class="col-2 header__img-wrap">
+<header class="header container-fluid">
+    <div class="row header__for-mobile">
+        <div class="col-2 header__img-wrap">
+            <img class="img-fluid" src="img/header-logo.png" alt="logo">
+        </div>
+        <div class="col-3 header__title-wrap">
+            <h1 class="header__title">FORK<span>IO</span></h1>
+        </div>
+        <div class="col-5">
+            <button class="btn btn-primary btn-block active btn-main header__btn">Buy Now</button>
+        </div>
+        <div class="header__menu-wrap col-2">
+            <a class="header__link-menu " href="#menu"><img src="img/sandwich.png" alt="menu"></a>
+        </div>
+    </div>
+    <div class="row header__for-laptop">
+        <div class="col-lg-1">
+            <img class="header__logo" src="img/header-logo.png" alt="logo">
+        </div>
+        <div class="col-lg-1">
+            <h1 class="header__title">FORK<span>IO</span></h1>
+        </div>
+        <nav class="col-lg-8 header__nav-wrap">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a class="header__nav-link" href="#">Overview</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">About Fork</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">Buying Options</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">Support</a></li>
+            </ul>
+        </nav>
+        <div class="col-lg-2">
+            <button class="btn btn-primary btn-block active btn-main header__btn">Buy Now</button>
+        </div>
+    </div>
+    <div id="menu" class="off-canvas-menu container-fluid">
+        <div class="off-canvas-menu__navbar row">
+            <div class="col-2">
                 <img class="img-fluid" src="img/header-logo.png" alt="logo">
             </div>
-            <div class="col-3 header__title-wrap">
+            <div class="col-4">
                 <h1 class="header__title">FORK<span>IO</span></h1>
             </div>
-            <div class="col-5">
+            <div class="col-4">
                 <button class="btn btn-primary btn-block active btn-main header__btn">Buy Now</button>
             </div>
             <div class="header__menu-wrap col-2">
-                <a class="header__link-menu " href="#menu"><img src="img/sandwich.png" alt="menu"></a>
+                <a href="#"><img src="img/btn-close.png" alt="close"></a>
             </div>
         </div>
-        <div class="row header__for-laptop">
-            <div class="col-lg-1">
-                <img class="header__logo" src="img/header-logo.png" alt="logo">
+        <div class="row">
+            <div class="off-canvas-menu__wrap col-12">
+                <a class="off-canvas-menu__menu-item" href="/">Home</a>
             </div>
-            <div class="col-lg-1">
-                <h1 class="header__title">FORK<span>IO</span></h1>
+            <div class="off-canvas-menu__wrap col-12">
+                <a class="off-canvas-menu__menu-item" href="/">Overview</a>
             </div>
-            <nav class="col-lg-8 header__nav-wrap">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item"><a class="header__nav-link" href="#">Overview</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#">About Fork</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#">Buying Options</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#">Support</a></li>
+            <div class="off-canvas-menu__wrap col-12">
+                <a class="off-canvas-menu__menu-item" href="/">About Fork</a>
+            </div>
+            <div class="off-canvas-menu__wrap col-12">
+                <a class="off-canvas-menu__menu-item" href="/">Buiyng Options</a>
+            </div>
+            <div class="off-canvas-menu__wrap col-12">
+                <a class="off-canvas-menu__menu-item" href="/">Support</a>
+            </div>
+            <div class="off-canvas-menu__wrap col-12"><p class="off-canvas-menu__title-socials">Follow Us</p>
+                <a class="off-canvas-menu__socials-link" href="#"><img src="img/social-github.png" alt="github"></a>
+                <a class="off-canvas-menu__socials-link" href="#"><img src="img/social-twitter.png" alt="twitter"></a>
+                <a class="off-canvas-menu__socials-link" href="#"><img src="img/social-facebook.png" alt="facebook"></a>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="hero container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1 class="hero__title">Fork App</h1>
+            <p class="hero__text">A Real Gamechanger In The World Of Web-Development</p>
+            <p class="hero__text-v">v. 2.8 For Mac and Windows</p>
+        </div>
+    </div>
+</section>
+<section class="editor container-fluid">
+    <div class="row justify-content-center text-center">
+        <div class="col-10 col-md-6 col-lg-4">
+            <button class="btn btn-primary btn-block active btn-main editor__btn">Download For Free Now</button>
+        </div>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-7">
+            <p class="editor__text-caption">Unlimited 30-Days Trial Period</p>
+        </div>
+        <div class="col-12">
+            <h2 class="editor__title">Revolutionary editor</h2>
+        </div>
+        <div class="col-12 col-md-10 col-lg-7">
+            <p class="editor__text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui
+                laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.</p>
+        </div>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-10 col-md-5 col-lg-3 editor__btn-github">
+            <a class="github-button" href="https://github.com/yoksel/common-words/subscription"
+               data-icon="octicon-eye" data-show-count="true" aria-label="Watch yoksel/common-words
+                   on GitHub">Watch</a>
+            <a class="github-button" href="https://github.com/yoksel/common-words" data-icon="octicon-star"
+               data-show-count="true" aria-label="Star yoksel/common-words on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/yoksel/common-words/fork"
+               data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork yoksel/common-words on GitHub">Fork</a>
+        </div>
+    </div>
+</section>
+<section class="feature container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="feature__title">&lt;Here is what you get&gt</h2>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="feature__content-wrap">
+                <img class="feature__img" src="img/features-img-1.png" alt="feature-img-1">
+                <div class="feature__text-wrap">
+                    <h4 class="feature__subtitle">Creatred to Make The Web Better</h4>
+                    <p class="feature__text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra
+                        dui laoreet vulputate dignissim. Sed id metus id quam auctor
+                        molestie eget ut augue. </p>
+                </div>
+            </div>
+            <div class="feature__content-wrap">
+                <img class="feature__img" src="img/features-img-2.png" alt="feature-img-2">
+                <div class="feature__text-wrap">
+                    <h4 class="feature__subtitle">Incredibly Powerful Tool</h4>
+                    <p class="feature__text">Maecenas eu dictum felis, a dignissim nibh.
+                        Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur
+                        dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+                </div>
+            </div>
+            <div class="feature__content-wrap">
+                <img class="feature__img" src="img/features-img-3.png" alt="feature-img-3">
+                <div class="feature__text-wrap">
+                    <h4 class="feature__subtitle">Experimental Stuff</h4>
+                    <p class="feature__text">Maecenas eu dictum felis, a dignissim nibh. Mauris
+                        rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis
+                        mi gravida luctus. Aliquam erat volutpat. </p>
+                </div>
+            </div>
+            <div class="feature__content-wrap">
+                <img class="feature__img" src="img/features-img-4.png" alt="feature-img-4">
+                <div class="feature__text-wrap">
+                    <h4 class="feature__subtitle">Creatred to Make The Web Better</h4>
+                    <p class="feature__text">Maecenas eu dictum felis, a dignissim nibh.
+                        Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur
+                        dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 feature__img-code"></div>
+    </div>
+</section>
+<section class="social container-fluid ">
+    <div class="row justify-content-center">
+        <div class="col-12 social__author-wrap">
+            <img class="social__img" src="img/social-img-author.png" alt="author">
+            <h4 class="social__author-name">Steven Strange</h4>
+            <span class="social__nickname">@DoctorS</span>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-10 col-lg-6">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <p class="social__text"><span>@Pixelbuddha</span> Suspendisse sodales sem est, in scelerisque
+                            felis scelerisque in.
+                            Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p class="social__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nunc imperdiet suscipit magna nec imperdiet dapibus ac elit sit amet, pellentesque.</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p class="social__text">Etiam vitae eros eget mi tempus tristique sed sed ipsum.
+                            Curabitur tortor tellus, dapibus ac elit sit amet, pellentesque ullamcorper tellus.</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev wrap-icon-prev" href="#carouselExampleControls" role="button"
+                   data-slide="prev">
+                    <span class="carousel-control-prev-icon prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next wrap-icon-next" href="#carouselExampleControls" role="button"
+                   data-slide="next">
+                    <span class="carousel-control-next-icon next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <span class="social__desc">2 hours ago</span>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8 col-sm-5 col-lg-3 text-center">
+            <a href="#" class="btn btn-primary btn-lg disabled social-btn social-btn__github" role="button"
+               aria-disabled="true"><img class="social__social-icon"
+                                         src="img/social-icon-github.png" alt="github">GitHub</a>
+            <span class="social__icon-caption">7 352 Followers</span>
+        </div>
+        <div class="col-8 col-sm-5 col-lg-3 text-center">
+            <a href="#" class="btn btn-primary btn-lg disabled social-btn social-btn__twitter" role="button"
+               aria-disabled="true"><img class="social__social-icon"
+                                         src="img/social-icon-twitter.png" alt="twitter">Twitter</a>
+            <span class="social__icon-caption">136 312 Followers</span>
+        </div>
+        <div class="col-8 col-sm-5 col-lg-3 text-center">
+            <a href="#" class="btn btn-primary btn-lg disabled social-btn social-btn__facebook" role="button"
+               aria-disabled="true"><img class="social__social-icon"
+                                         src="img/social-icon-facebook.png" alt="facebook">Facebook</a>
+            <span class="social__icon-caption">218 092 Subscribers</span>
+        </div>
+    </div>
+</section>
+<section class="testimonials container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 text-center">
+            <h2 class="testimonials__title">People Are Talking About Fork</h2>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 text-center">
+            <img class="testimonials__logo" src="img/testimonials-smashing.png" alt="smashing">
+            <p class="testimonials__text ">Sed vestibulum scelerisque urna, eu finibus leo facilisis
+                sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </p>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 text-center">
+            <img class="testimonials__logo" src="img/testimonials-codrops.png" alt="codrops">
+            <p class="testimonials__text">Donec euismod dolor ut ultricies consequat. Vivamus
+                urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.</p>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 text-center">
+            <img class="testimonials__logo" src="img/testimonials-w.png" alt="w">
+            <p class="testimonials__text">In efficitur in velit et tempus. Duis nec odio dapibus, suscipit
+                erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula. </p>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 text-center">
+            <img class="testimonials__logo" src="img/testimonials-pixel.png" alt="pixel">
+            <p class="testimonials__text">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit
+                amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis.</p>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 text-center">
+            <img class="testimonials__logo" src="img/testimonials-cb.png" alt="cb">
+            <p class="testimonials__text">Praesent ut eros tristique, malesuada lectus vel, lobortis massa.
+                Nulla faucibus lorem id arcu consequat faucibus.</p>
+        </div>
+        <div class="col-10 col-sm-6 col-lg-4 text-center">
+            <img class="testimonials__logo" src="img/testimonials-tnw.png" alt="tnw">
+            <p class="testimonials__text">Fusce pharetra erat id odio blandit, nec
+                pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</p>
+        </div>
+        <div class="col-10 testimonials__line"></div>
+    </div>
+</section>
+<section class="pricing container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 text-center">
+            <h2 class="pricing__title">Fork Subscription Pricing</h2>
+        </div>
+        <div class="col-8 col-sm-5 col-md-6 text-center pricing__item">
+            <h4 class="pricing__subtitle">Students</h4>
+            <div class="pricing__price-wrap">
+                <span class="pricing__price">$29</span>
+                <span class="pricing__period">per Month</span>
+                <div class="pricing__line"></div>
+                <p class="pricing__text">Personal License</p>
+                <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
+            </div>
+        </div>
+        <div class="col-8 col-sm-5 col-md-6 text-center pricing__item">
+            <h4 class="pricing__subtitle">professional</h4>
+            <div class="pricing__price-wrap">
+                <span class="pricing__price">$59</span>
+                <span class="pricing__period">per Month</span>
+                <div class="pricing__line"></div>
+                <p class="pricing__text">Professional License Email Support</p>
+                <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
+            </div>
+        </div>
+        <div class="col-8 col-sm-5 col-md-6 text-center pricing__item">
+            <h4 class="pricing__subtitle">agency</h4>
+            <div class="pricing__price-wrap">
+                <span class="pricing__price">$99</span>
+                <span class="pricing__period">per Month</span>
+                <div class="pricing__line"></div>
+                <p class="pricing__text">1-12 Team Members Phone Support</p>
+                <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
+            </div>
+        </div>
+        <div class="col-8 col-sm-5 col-md-6 text-center pricing__item">
+            <h4 class="pricing__subtitle">enterprise</h4>
+            <div class="pricing__price-wrap">
+                <span class="pricing__price">$159</span>
+                <span class="pricing__period">per Month</span>
+                <div class="pricing__line"></div>
+                <p class="pricing__text">Unlimited Team Members 24/ 7 Phone Support</p>
+                <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-10 col-lg-8 text-center">
+            <p class="pricing__text-main">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla
+                nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit
+                eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus
+                et magnis dis parturient montes, nascetur ridiculus mus. </p>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="subscription container-fluid">
+    <div class="row text-center wrap">
+        <div class="col-12 col-lg-6">
+            <h4 class="subscription__title">Subscribe To Stay In Touch</h4>
+        </div>
+        <div class="col-12 col-lg-6">
+            <form name="form-subscribe" action="#">
+                <input class="subscription__form-email" type="email" name="email" placeholder="Email...">
+                <button class="subscription__form-button" name="subscribe">subscribe</button>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="links container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-11 col-lg-4">
+            <h3 class="links__title">New in Release 2.8</h3>
+            <h4 class="links__subtitle">Fully Available: Live Preview Support for Multiple Browsers</h4>
+            <p class="links__text">Morbi faucibus ante ipsum, a tincidunt libero posuere et. Etiam tempor
+                tortor at odio condimentum, sit amet fringilla ligula maximus. Mauris venenatis nisl nisi,
+                et dictum dui aliquet nec. Sed erat, nec aliquam vel, aliquam ac felis.</p>
+            <h4 class="links__subtitle">Improved Support for Typing </h4>
+            <p class="links__text">Nulla purus quam, pulvinar sed ante et, feugiat maximus velit. Donec eu
+                elit mauris. </p>
+            <h4 class="links__subtitle">Improved Stability</h4>
+            <p class="links__text">Proin id ligula eget massa tincidunt molestie. Morbi urna lectus,
+                molestie vel quam vel, iaculis fermentum nunc. Morbi imperdiet, leo in interdum pretium.</p>
+            <a class="links__btn" href="#" role="button" aria-pressed="true">Go to Release Log</a>
+        </div>
+        <div class="col-11 col-lg-4">
+            <h3 class="links__title">Popular Extensions</h3>
+            <a class="links__link" href="#">Custom Themes 1.1</a>
+            <p class="links__text">Etiam viverra vulputate diam, pulvinar cursus augue egestas ullamcorper. </p>
+            <a class="links__link" href="#">Filter Forge</a>
+            <p class="links__text">Nulla purus quam, pulvinar sed et, feugiat maximus velit.</p>
+            <a class="links__link" href="#">WebZap</a>
+            <p class="links__text">Morbi imperdiet, leo in interdum pretium, elit eros dapibus velit,
+                eu posuere quam diam vitae orci. Suspendisse interdum accumsan magna vitae commodo.</p>
+            <a class="links__link" href="#">Renamy</a>
+            <p class="links__text">Vivamus consectetur suscipit elit, ut lacinia diam elementum et.</p>
+            <a class="links__btn" href="#" role="button">Go to Marketplace</a>
+        </div>
+        <div class="col-11 col-lg-4">
+            <h3 class="links__title">New From the Blog</h3>
+            <a class="links__link" href="#">Morbi imperdiet, leo in interdum pretium.</a>
+            <time class="links__date">February 18, 2015</time>
+            <a class="links__link" href="#">Donec orci ante, porta vel nulla quis, aliquet.</a>
+            <time class="links__date">February 12, 2015</time>
+            <a class="links__link" href="#">Suspendisse egestas vulputate luctus.</a>
+            <time class="links__date">February 6, 2015</time>
+            <a class="links__link" href="#">Quisque varius ante lorem, eget pretium purus hendrerit a egestas.</a>
+            <time class="links__date">February 2, 2015</time>
+            <a class="links__link" href="#">Phasellus in augue risus. </a>
+            <time class="links__date">January 23, 2015</time>
+            <a class="links__btn" href="#" role="button">Go to Blog</a>
+        </div>
+    </div>
+</section>
+<footer class="footer container-fluid">
+    <div class="row">
+        <div class="col-8 col-sm-6 col-lg-4">
+            <img class="img-fluid align-middle" src="img/header-logo.png" alt="logo">
+            <h1 class="footer__title align-middle">FORK<span>IO</span></h1>
+            <p class="footer__text">Lorem ipsum dolor sit amet, feugiat delicat liberavisse id cum no quo.</p>
+        </div>
+        <div class="col-8 col-sm-6 col-lg-2">
+            <h4 class="footer__subtitle">Navigation</h4>
+            <nav>
+                <ul class="footer__nav-list">
+                    <li><a class="footer__nav-item" href="#">Home</a></li>
+                    <li><a class="footer__nav-item" href="#">Overview</a></li>
+                    <li><a class="footer__nav-item" href="#">About</a></li>
+                    <li><a class="footer__nav-item" href="#">Buying Options</a></li>
+                    <li><a class="footer__nav-item" href="#">Support</a></li>
                 </ul>
             </nav>
-            <div class="col-lg-2">
-                <button class="btn btn-primary btn-block active btn-main header__btn">Buy Now</button>
-            </div>
         </div>
-        <div id="menu" class="off-canvas-menu container-fluid">
-            <div class="off-canvas-menu__navbar row">
-                <div class="col-2">
-                    <img class="img-fluid" src="img/header-logo.png" alt="logo">
-                </div>
-                <div class="col-4">
-                    <h1 class="header__title">FORK<span>IO</span></h1>
-                </div>
-                <div class="col-4">
-                    <button class="btn btn-primary btn-block active btn-main header__btn">Buy Now</button>
-                </div>
-                <div class="header__menu-wrap col-2">
-                    <a href="#"><img src="img/btn-close.png" alt="close"></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="off-canvas-menu__wrap col-12">
-                    <a class="off-canvas-menu__menu-item" href="/">Home</a>
-                </div>
-                <div class="off-canvas-menu__wrap col-12">
-                    <a class="off-canvas-menu__menu-item" href="/">Overview</a>
-                </div>
-                <div class="off-canvas-menu__wrap col-12">
-                    <a class="off-canvas-menu__menu-item" href="/">About Fork</a>
-                </div>
-                <div class="off-canvas-menu__wrap col-12">
-                    <a class="off-canvas-menu__menu-item" href="/">Buiyng Options</a>
-                </div>
-                <div class="off-canvas-menu__wrap col-12">
-                    <a class="off-canvas-menu__menu-item" href="/">Support</a>
-                </div>
-                <div class="off-canvas-menu__wrap col-12"><p class="off-canvas-menu__title-socials">Follow Us</p>
-                    <a class="off-canvas-menu__socials-link" href="#"><img src="img/social-github.png" alt="github"></a>
-                    <a class="off-canvas-menu__socials-link" href="#"><img src="img/social-twitter.png" alt="twitter"></a>
-                    <a class="off-canvas-menu__socials-link" href="#"><img src="img/social-facebook.png" alt="facebook"></a>
-                </div>
-            </div>
+        <address class="col-8 col-sm-6 col-lg-3">
+            <a class="footer__tel-number" href="tel:347 567 78 90">347 567 78 90</a>
+            <p class="footer__text">AVAILABLE AT 12PM - 18PM</p>
+            <h4 class="footer__subtitle">New York, NY</h4>
+            <p class="footer__text">560 Judah St & 15th Ave, Apt 5 San Francisco, CA, 230903</p>
+        </address>
+        <div class="col-12 col-sm-6 col-lg-3">
+            <h4 class="footer__subtitle">Info</h4>
+            <p class="footer__text">Wisi enim ad minim veniam, quis nostrud exerci
+                tation ullamcorper suscipit lobortis nisl ut aliquip ex commodo consequat.
+                Autem vel hendrerit iriure dolor in hendrerit.</p>
         </div>
-    </header>
-    <section class="hero container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1 class="hero__title">Fork App</h1>
-                    <p class="hero__text">A Real Gamechanger In The World Of Web-Development</p>
-                    <p class="hero__text-v">v. 2.8 For Mac and Windows</p>
-                </div>
-            </div>
-    </section>
-    <section class="editor container-fluid">
-        <div class="row justify-content-center text-center">
-            <div class="col-10 col-md-6 col-lg-4">
-                <button class="btn btn-primary btn-block active btn-main editor__btn">Download For Free Now</button>
-            </div>
-        </div>
-        <div class="row justify-content-center text-center">
-            <div class="col-7">
-                <p class="editor__text-caption">Unlimited 30-Days Trial Period</p>
-            </div>
-            <div class="col-12">
-                <h2 class="editor__title">Revolutionary editor</h2>
-            </div>
-            <div class="col-12 col-md-10 col-lg-7">
-                <p class="editor__text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui
-                        laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center text-center">
-            <div class="col-10 col-md-5 col-lg-3 editor__btn-github">
-                <a class="github-button" href="https://github.com/yoksel/common-words/subscription"
-                   data-icon="octicon-eye" data-show-count="true" aria-label="Watch yoksel/common-words
-                   on GitHub">Watch</a>
-                <a class="github-button" href="https://github.com/yoksel/common-words" data-icon="octicon-star"
-                   data-show-count="true" aria-label="Star yoksel/common-words on GitHub">Star</a>
-                <a class="github-button" href="https://github.com/yoksel/common-words/fork"
-                   data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork yoksel/common-words on GitHub">Fork</a>
-            </div>
-        </div>
-    </section>
-    <section class="feature container-fluid ">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <h2 class="feature__title">&lt;Here is what you get&gt</h2>
-            </div>
-            <div class="col-3 text-center feature__img-wrap">
-                <img class="feature__img" src="img/features-img-1.png" alt="feature-img-1">
-            </div>
-            <div class="col-8 feature__text-wrap">
-                <h4 class="feature__subtitle">Creatred to Make The Web Better</h4>
-                <p class="feature__text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra
-                    dui laoreet vulputate dignissim. Sed id metus id quam auctor
-                    molestie eget ut augue. </p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-3 text-center feature__img-wrap">
-                <img class="feature__img" src="img/features-img-2.png" alt="feature-img-2">
-            </div>
-            <div class="col-8 feature__text-wrap">
-                <h4 class="feature__subtitle">Incredibly Powerful Tool</h4>
-                <p class="feature__text">Maecenas eu dictum felis, a dignissim nibh.
-                    Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur
-                    dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-3 text-center feature__img-wrap">
-                <img class="feature__img" src="img/features-img-3.png" alt="feature-img-3">
-            </div>
-            <div class="col-8 feature__text-wrap">
-                <h4 class="feature__subtitle">Experimental Stuff</h4>
-                <p class="feature__text">Maecenas eu dictum felis, a dignissim nibh.
-                    Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur
-                    dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-3 text-center feature__img-wrap">
-                <img class="feature__img" src="img/features-img-4.png" alt="feature-img-4">
-            </div>
-            <div class="col-8 feature__text-wrap">
-                <h4 class="feature__subtitle">Creatred to Make The Web Better</h4>
-                <p class="feature__text">Maecenas eu dictum felis, a dignissim nibh.
-                    Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur
-                    dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
-            </div>
-            <div class="col-12 feature__img-code">
-            </div>
-        </div>
-    </section>
-    <section class="social container-fluid ">
-        <div class="row justify-content-center">
-            <div class="col-12 social__author-wrap">
-                <img class="social__img" src="img/social-img-author.png" alt="author">
-                <h4 class="social__author-name">Steven Strange</h4>
-                <span class="social__nickname">@DoctorS</span>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-10 col-lg-6">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active text-center">
-                            <p class="social__text"><span>@Pixelbuddha</span> Suspendisse sodales sem est, in scelerisque felis scelerisque in.
-                                Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
-                        </div>
-                        <div class="carousel-item text-center">
-                            <p class="social__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Nunc imperdiet suscipit magna nec imperdiet dapibus ac elit sit amet, pellentesque.</p>
-                        </div>
-                        <div class="carousel-item text-center">
-                            <p class="social__text">Etiam vitae eros eget mi tempus tristique sed sed ipsum.
-                                Curabitur tortor tellus, dapibus ac elit sit amet, pellentesque ullamcorper tellus.</p>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev wrap-icon-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next wrap-icon-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-                <span class="social__desc">2 hours ago</span>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-8 col-sm-5 col-lg-3 text-center">
-                <a href="#" class="btn btn-primary btn-lg disabled social-btn social-btn__github" role="button"
-                   aria-disabled="true"><img class="social__social-icon"
-                   src="img/social-icon-github.png" alt="github">GitHub</a>
-                <span class="social__icon-caption">7 352 Followers</span>
-            </div>
-            <div class="col-8 col-sm-5 col-lg-3 text-center">
-                <a href="#" class="btn btn-primary btn-lg disabled social-btn social-btn__twitter" role="button"
-                   aria-disabled="true"><img class="social__social-icon"
-                   src="img/social-icon-twitter.png" alt="twitter">Twitter</a>
-                <span class="social__icon-caption">136 312 Followers</span>
-            </div>
-            <div class="col-8 col-sm-5 col-lg-3 text-center">
-                <a href="#" class="btn btn-primary btn-lg disabled social-btn social-btn__facebook" role="button"
-                   aria-disabled="true"><img class="social__social-icon"
-                    src="img/social-icon-facebook.png" alt="facebook">Facebook</a>
-                <span class="social__icon-caption">218 092 Subscribers</span>
-            </div>
-        </div>
-    </section>
-    <section class="testimonials container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <h2 class="testimonials__title">People Are Talking About Fork</h2>
-            </div>
-            <div class="col-10 col-sm-6 col-lg-4 text-center">
-                <img class="testimonials__logo" src="img/testimonials-smashing.png" alt="smashing">
-                <p class="testimonials__text ">Sed vestibulum scelerisque urna, eu finibus leo facilisis
-                    sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </p>
-            </div>
-            <div class="col-10 col-sm-6 col-lg-4 text-center">
-                <img class="testimonials__logo" src="img/testimonials-codrops.png" alt="codrops">
-                <p class="testimonials__text">Donec euismod dolor ut ultricies consequat. Vivamus
-                    urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.</p>
-            </div>
-            <div class="col-10 col-sm-6 col-lg-4 text-center">
-                <img class="testimonials__logo" src="img/testimonials-w.png" alt="w">
-                <p class="testimonials__text">In efficitur in velit et tempus. Duis nec odio dapibus, suscipit
-                    erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula. </p>
-            </div>
-            <div class="col-10 col-sm-6 col-lg-4 text-center">
-                <img class="testimonials__logo" src="img/testimonials-pixel.png" alt="pixel">
-                <p class="testimonials__text">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit
-                    amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis.</p>
-            </div>
-            <div class="col-10 col-sm-6 col-lg-4 text-center">
-                <img class="testimonials__logo" src="img/testimonials-cb.png" alt="cb">
-                <p class="testimonials__text">Praesent ut eros tristique, malesuada lectus vel, lobortis massa.
-                    Nulla faucibus lorem id arcu consequat faucibus.</p>
-            </div>
-            <div class="col-10 col-sm-6 col-lg-4 text-center">
-                <img class="testimonials__logo" src="img/testimonials-tnw.png" alt="tnw">
-                <p class="testimonials__text">Fusce pharetra erat id odio blandit, nec
-                    pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</p>
-            </div>
-            <div class="col-10 testimonials__line"></div>
-        </div>
-    </section>
-    <section class="pricing container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <h2 class="pricing__title">Fork Subscription Pricing</h2>
-            </div>
-            <div class="col-8 col-md-6 text-center pricing__item">
-                <h4 class="pricing__subtitle">Students</h4>
-                <div class="pricing__price-wrap">
-                    <span class="pricing__price">$29</span>
-                    <span class="pricing__period">per Month</span>
-                    <div class="pricing__line"></div>
-                    <p class="pricing__text">Personal License</p>
-                    <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
-                </div>
-            </div>
-            <div class="col-8 col-md-6 text-center pricing__item">
-                <h4 class="pricing__subtitle">professional</h4>
-                <div class="pricing__price-wrap">
-                    <span class="pricing__price">$59</span>
-                    <span class="pricing__period">per Month</span>
-                    <div class="pricing__line"></div>
-                    <p class="pricing__text">Professional License Email Support</p>
-                    <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
-                </div>
-            </div>
-            <div class="col-8 col-md-6 text-center pricing__item">
-                <h4 class="pricing__subtitle">agency</h4>
-                <div class="pricing__price-wrap">
-                    <span class="pricing__price">$99</span>
-                    <span class="pricing__period">per Month</span>
-                    <div class="pricing__line"></div>
-                    <p class="pricing__text">1-12 Team Members Phone Support</p>
-                    <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
-                </div>
-            </div>
-            <div class="col-8 col-md-6 text-center pricing__item">
-                <h4 class="pricing__subtitle">enterprise</h4>
-                <div class="pricing__price-wrap">
-                    <span class="pricing__price">$159</span>
-                    <span class="pricing__period">per Month</span>
-                    <div class="pricing__line"></div>
-                    <p class="pricing__text">Unlimited Team Members 24/ 7 Phone Support</p>
-                    <button type="button" class="btn btn-secondary pricing__btn">purchase</button>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-10 col-lg-8 text-center">
-                <p class="pricing__text-main">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla
-                    nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit
-                    eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus
-                    et magnis dis parturient montes, nascetur ridiculus mus. </p>
-            </div>
-        </div>
-        </div>
-    </section>
-    <section class="subscription container-fluid">
-        <div class="row text-center wrap">
-            <div class="col-12 col-lg-6">
-                <h4 class="subscription__title">Subscribe To Stay In Touch</h4>
-            </div>
-            <div class="col-12 col-lg-6">
-                <form name="form-subscribe" action="#">
-                    <input class="subscription__form-email" type="email" name="email" placeholder="Email...">
-                    <button class="subscription__form-button" name="subscribe">subscribe</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <section class="links container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-11 col-lg-4">
-                <h3 class="links__title">New in Release 2.8</h3>
-                <h4 class="links__subtitle">Fully Available: Live Preview Support for Multiple Browsers</h4>
-                <p class="links__text">Morbi faucibus ante ipsum, a tincidunt libero posuere et. Etiam tempor
-                    tortor at odio condimentum, sit amet fringilla ligula maximus. Mauris venenatis nisl nisi,
-                    et dictum dui aliquet nec. Sed erat, nec aliquam vel, aliquam ac felis.</p>
-                <h4 class="links__subtitle">Improved Support for Typing </h4>
-                <p class="links__text">Nulla purus quam, pulvinar sed ante et, feugiat maximus velit. Donec eu
-                    elit mauris. </p>
-                <h4 class="links__subtitle">Improved Stability</h4>
-                <p class="links__text">Proin id ligula eget massa tincidunt molestie. Morbi urna lectus,
-                    molestie vel quam vel, iaculis fermentum nunc. Morbi imperdiet, leo in interdum pretium.</p>
-                <a class="links__btn" href="#" role="button" aria-pressed="true">Go to Release Log</a>
-            </div>
-            <div class="col-11 col-lg-4">
-                <h3 class="links__title">Popular Extensions</h3>
-                <a class="links__link" href="#">Custom Themes 1.1</a>
-                <p class="links__text">Etiam viverra vulputate diam, pulvinar cursus augue egestas ullamcorper. </p>
-                <a class="links__link" href="#">Filter Forge</a>
-                <p class="links__text">Nulla purus quam, pulvinar sed et, feugiat maximus velit.</p>
-                <a class="links__link" href="#">WebZap</a>
-                <p class="links__text">Morbi imperdiet, leo in interdum pretium, elit eros dapibus velit,
-                    eu posuere quam diam vitae orci. Suspendisse interdum accumsan magna vitae commodo.</p>
-                <a class="links__link" href="#">Renamy</a>
-                <p class="links__text">Vivamus consectetur suscipit elit, ut lacinia diam elementum et.</p>
-                <a class="links__btn" href="#" role="button">Go to Marketplace</a>
-            </div>
-            <div class="col-11 col-lg-4">
-                <h3 class="links__title">New From the Blog</h3>
-                <a class="links__link" href="#">Morbi imperdiet, leo in interdum pretium.</a>
-                <time class="links__date">February 18, 2015</time>
-                <a class="links__link" href="#">Donec orci ante, porta vel nulla quis, aliquet.</a>
-                <time class="links__date">February 12, 2015</time>
-                <a class="links__link" href="#">Suspendisse egestas vulputate luctus.</a>
-                <time class="links__date">February 6, 2015</time>
-                <a class="links__link" href="#">Quisque varius ante lorem, eget pretium purus hendrerit a egestas.</a>
-                <time class="links__date">February 2, 2015</time>
-                <a class="links__link" href="#">Phasellus in augue risus. </a>
-                <time class="links__date">January 23, 2015</time>
-                <a class="links__btn" href="#" role="button">Go to Blog</a>
-            </div>
-        </div>
-    </section>
-    <footer class="footer container-fluid">
-        <div class="row">
-            <div class="col-8 col-sm-6 col-lg-4">
-                <img class="img-fluid align-middle" src="img/header-logo.png" alt="logo">
-                <h1 class="footer__title align-middle">FORK<span>IO</span></h1>
-                <p class="footer__text">Lorem ipsum dolor sit amet, feugiat delicat liberavisse id cum no quo.</p>
-            </div>
-            <div class="col-8 col-sm-6 col-lg-2">
-                <h4 class="footer__subtitle">Navigation</h4>
-                <nav>
-                    <ul class="footer__nav-list">
-                        <li><a class="footer__nav-item" href="#">Home</a></li>
-                        <li><a class="footer__nav-item" href="#">Overview</a></li>
-                        <li><a class="footer__nav-item" href="#">About</a></li>
-                        <li><a class="footer__nav-item" href="#">Buying Options</a></li>
-                        <li><a class="footer__nav-item" href="#">Support</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <address class="col-8 col-sm-6 col-lg-3">
-                <a class="footer__tel-number" href="tel:347 567 78 90">347 567 78 90</a>
-                <p class="footer__text">AVAILABLE AT 12PM - 18PM</p>
-                <h4 class="footer__subtitle">New York, NY</h4>
-                <p class="footer__text">560 Judah St & 15th Ave, Apt 5 San Francisco, CA, 230903</p>
-            </address>
-            <div class="col-12 col-sm-6 col-lg-3">
-                <h4 class="footer__subtitle">Info</h4>
-                <p class="footer__text">Wisi enim ad minim veniam, quis nostrud exerci
-                    tation ullamcorper suscipit lobortis nisl ut aliquip ex commodo consequat.
-                    Autem vel hendrerit iriure dolor in hendrerit.</p>
-            </div>
-        </div>
-    </footer>
-
-
+    </div>
+</footer>
 
 
 </body>
