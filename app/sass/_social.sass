@@ -1,8 +1,12 @@
 .social
   padding-top: 110px
   padding-bottom: 30px
-  &__text-author
-    margin: 0 0 60px 25px
+  &__author-wrap
+    margin-bottom: 25px
+  &__img
+    float: left
+    margin-right: 25px
+    padding-left: 7%
   &__author-name
     font-family: $medium-font-size
     font-weight: 700
@@ -26,26 +30,15 @@
     font-size: $small-font-size
     margin: 25px 0 55px 0
   &__social-icon
-    display: inline-block
-    position: relative
-    left: -70px
     vertical-align: middle
-  .social__icon-caption
+    margin-right: 20%
+  &__icon-caption
     display: inline-block
     margin: 20px 0 30px 0
     color: $second-color
     font-size: $tiny-font-size
 
-
-
-
-
-
 .prev-icon
   background: url("../img/Arrow_L.png") no-repeat center center
 .next-icon
   background: url("../img/Arrow_R.png") no-repeat center center
-.wrap-icon-prev
-  left: -50px
-.wrap-icon-next
-  right: -50px
