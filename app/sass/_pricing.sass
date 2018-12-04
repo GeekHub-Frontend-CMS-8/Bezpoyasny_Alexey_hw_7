@@ -1,0 +1,91 @@
+.pricing
+  background: #4b3b4e url("../img/pricing-bg.png") no-repeat center center
+  &__title
+    margin: 65px 0 45px 0
+    font-size: 32px
+    font-weight: 700
+    color: $primary-color
+    line-height: 40px
+  .pricing__item
+    width: 100%
+    max-width: 257px
+    margin: 0 15px 15px 15px
+    padding: 0
+    transition: 0.7s
+    &:hover
+      width: 100%
+      max-width: 300px
+      cursor: pointer
+    &:hover
+      .pricing__subtitle
+        padding: 50px 0 40px 0
+        background-color: #392d3d
+      .pricing__price
+        font-size: 82px
+      .pricing__price-wrap
+        padding-top: 20px
+        background-color: #413344
+      .pricing__btn
+        width: 100%
+        max-width: 190px
+        padding: 20px 0
+        font-size: $small-font-size
+  &__subtitle
+    padding: 45px 0 35px 0
+    background-color: #695b6a
+    font-size: $medium-font-size
+    color: $primary-color
+    text-transform: uppercase
+    transition: 0.7s
+  &__price-wrap
+    background-color: #5f5161
+    padding: 40px 0
+    transition: 0.7s
+  &__price
+    display: block
+    margin-bottom: 25px
+    font-size: 60px
+    font-weight: 700
+    color: $primary-color
+    text-transform: uppercase
+    transition: 0.7s
+  &__period
+    display: block
+    margin-bottom: 40px
+    font-size: $tiny-font-size
+    color: $primary-color
+    opacity: 0.3
+    text-transform: uppercase
+  &__line
+    margin: 0 auto 30px auto
+    width: 60px
+    height: 5px
+    background-color: #8d81ac
+  &__text
+    height: 45px
+    font-size: $small-font-size
+    color: $primary-color
+    line-height: 28px
+  &__btn
+    margin-top: 65px
+    padding: 15px 0
+    width: 100%
+    max-width: 160px
+    border-radius: 100px
+    background-color: #766b79
+    font-size: 15px
+    color: $primary-color
+    text-transform: uppercase
+    transition: 0.7s
+  .pricing__text-main
+    margin: 40px 0
+    font-size: $tiny-font-size
+    color: #b5acb5
+    opacity: 0.8
+    line-height: 21px
+
+@media (min-width: 480px)
+  .pricing
+    &__title
+      font-size: $big-font-size
+      line-height: 60px

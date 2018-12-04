@@ -1,0 +1,48 @@
+.feature
+  padding-top: 50px
+  background-color: #f4f4f4
+  &__title
+    margin-bottom: 60px
+    font-size: 32px
+    font-weight: 700
+    color: #8d81ac
+    line-height: 32px
+    text-align: center
+  &__content-wrap
+    display: flex
+    align-items: flex-start
+    justify-content: flex-start
+    margin-top: 45px
+  &__img
+    display: block
+    width: 100%
+    max-width: 50px
+    margin-right: 25px
+  &__subtitle
+    margin-bottom: 20px
+    font-size: $small-font-size
+    color: #323232
+  &__text
+    font-family: $second-font-family
+    font-size: $tiny-font-size
+    color: #848e97
+    line-height: 21px
+  &__img-code
+    position: relative
+    top: 50px
+    height: 580px
+    background: url("../img/feature-img-code.png") no-repeat left
+
+@media (min-width: 480px)
+  .feature
+    &__title
+      font-size: $big-font-size
+      line-height: 50px
+      margin-bottom: 0
+    &__img
+      max-width: 80px
+
+@media (min-width: 992px)
+  .feature
+    &__title
+      text-align: right
