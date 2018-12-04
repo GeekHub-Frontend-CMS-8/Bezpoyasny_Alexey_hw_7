@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6421cbb7-93af-4e6a-a987-c3be18c1bb18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6421cbb7-93af-4e6a-a987-c3be18c1bb18" name="Default Changelist" comment="" />
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +41,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="204">
+              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding>
-                <element signature="e#7530#7534#0" expanded="true" />
+                <element signature="e#7168#7172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,10 +54,7 @@
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="9683">
-              <caret line="421" column="7" lean-forward="true" selection-start-line="421" selection-start-column="7" selection-end-line="421" selection-end-column="7" />
-              <folding>
-                <element signature="e#7530#7534#0" expanded="true" />
-              </folding>
+              <caret line="430" column="7" selection-start-line="430" selection-start-column="7" selection-end-line="430" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -197,10 +192,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71528000" />
+    <option name="totallyTimeSpent" value="71561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19379845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -352,10 +348,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="204">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding>
-            <element signature="e#7530#7534#0" expanded="true" />
+            <element signature="e#7168#7172#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -363,10 +359,7 @@
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9683">
-          <caret line="421" column="7" lean-forward="true" selection-start-line="421" selection-start-column="7" selection-end-line="421" selection-end-column="7" />
-          <folding>
-            <element signature="e#7530#7534#0" expanded="true" />
-          </folding>
+          <caret line="430" column="7" selection-start-line="430" selection-start-column="7" selection-end-line="430" selection-end-column="7" />
         </state>
       </provider>
     </entry>
